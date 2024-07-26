@@ -61,3 +61,4 @@ This repository is structured to provide clear examples of each SOLID principle.
 By following the SOLID principles, we can create software that is easier to maintain, extend, and understand. This repository aims to provide practical examples to help you implement these principles in your own projects.
 
 Feel free to explore the examples and use them as a reference for your own designs. Happy coding!
+If you liked this read, connect with me on [LinkedIn](https://www.linkedin.com/in/ayush-nandi-583231230/).
