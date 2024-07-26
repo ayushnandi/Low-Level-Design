@@ -4,6 +4,9 @@ class Bird {
     public void fly() {
         System.out.println("Bird is flying");
     }
+    public void twoWings() {
+    	System.out.println("Have two wings");
+    }
 }
 
 class Sparrow extends Bird {
@@ -21,8 +24,15 @@ public class LSP {
         Bird sparrow = new Sparrow();
         Bird penguin = new Penguin();
 
-        sparrow.fly();  // This works fine
+        sparrow.fly(); 
+        sparrow.twoWings();
+        penguin.twoWings();
         penguin.fly();  // This will throw an exception
     }
 }
+
+
+// In Order to avoid error, the parent class should only inherit generic properties 
+// in this case twoWings will not cause any error in the system but fly can
+
 
