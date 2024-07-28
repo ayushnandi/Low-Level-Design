@@ -1,4 +1,4 @@
-# Strategy Design Pattern in Java
+# Strategy Design Pattern
 
 ## What is the Strategy Design Pattern?
 
