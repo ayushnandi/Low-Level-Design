@@ -7,5 +7,4 @@ public class STP {
 		Vehicle car2 = new OffRoadVehicle();
 		car2.drive();
 	}
-	
 }
