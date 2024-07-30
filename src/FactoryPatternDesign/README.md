@@ -85,33 +85,8 @@ public class FactoryPatternDemo {
 
 ### Diagram
 
-```plaintext
-  +-------------------+
-  | Notification      |
-  +-------------------+
-  | + notifyUser()    |
-  +-------------------+
-         ^
-         |
-  +-------------------+      +-------------------+
-  | EmailNotification |      | SMSNotification   |
-  +-------------------+      +-------------------+
-  | + notifyUser()    |      | + notifyUser()    |
-  +-------------------+      +-------------------+
+![image](https://github.com/user-attachments/assets/9fb84162-3a7f-4092-99a5-7683ef4d53bc)
 
-  +---------------------+
-  | NotificationFactory |
-  +---------------------+--------------------+
-  | + createNotification(type): Notification |
-  +-------------------+----------------------+
-         |
-         v
-  +-------------------------+
-  | FactoryPatternDemo      |
-  +-------------------------+
-  | + main()                |
-  +-------------------------+
-```
 
 This diagram and example illustrate how the Factory Pattern can be used to create different types of notifications. The `NotificationFactory` class encapsulates the creation logic, and the client (`FactoryPatternDemo`) uses the factory to get the required notification objects without knowing the concrete classes involved.
 
