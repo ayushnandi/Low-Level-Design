@@ -1,4 +1,4 @@
-### Factory Pattern
+# Factory Pattern
 
 The Factory Pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. This pattern promotes loose coupling by eliminating the need to bind application-specific classes into the code. The client code works with interfaces and abstract classes, making it more flexible and extensible.
 
@@ -99,11 +99,11 @@ public class FactoryPatternDemo {
   | + notifyUser()    |      | + notifyUser()    |
   +-------------------+      +-------------------+
 
-  +-------------------+
-  | NotificationFactory|
-  +-------------------+
+  +---------------------+
+  | NotificationFactory |
+  +---------------------+--------------------+
   | + createNotification(type): Notification |
-  +-------------------+
+  +-------------------+----------------------+
          |
          v
   +-------------------------+
@@ -114,3 +114,6 @@ public class FactoryPatternDemo {
 ```
 
 This diagram and example illustrate how the Factory Pattern can be used to create different types of notifications. The `NotificationFactory` class encapsulates the creation logic, and the client (`FactoryPatternDemo`) uses the factory to get the required notification objects without knowing the concrete classes involved.
+
+
+If you enjoyed this read, do follow me on [LinkedIn](https://www.linkedin.com/in/ayush-nandi-583231230/).
