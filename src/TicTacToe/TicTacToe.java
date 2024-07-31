@@ -7,11 +7,6 @@ public class TicTacToe {
 	boolean turn = true; 
 	int [][] board = new int[3][3];
 	
-	public static void main(String[] args) {
-		TicTacToe game = new TicTacToe();
-		game.startGame();
-	}
-	
 	public void startGame() {
 		boolean noWinner = true;
 		Scanner scanner = new Scanner(System.in);
