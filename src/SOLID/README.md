@@ -14,6 +14,9 @@ The SOLID principles are a set of guidelines that help software developers desig
 
 **Example:** See `SRP.java` for an implementation of SRP.
 
+![{F7A465FF-54EE-4204-A866-40452B7712AC}](https://github.com/user-attachments/assets/6627ddf0-99fe-43ac-ba5d-7db2766d880e)
+
+
 ### 2. Open/Closed Principle (OCP)
 
 **Definition:** Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
@@ -21,6 +24,9 @@ The SOLID principles are a set of guidelines that help software developers desig
 **Description:** OCP encourages developers to write code that can be extended without modifying the existing source code. This is typically achieved through abstraction, allowing new functionality to be added by creating new derived classes that implement existing interfaces.
 
 **Example:** See `OCP.java` for an implementation of OCP.
+
+![{4A5F952E-0D1C-487C-873B-B1E6C48EA121}](https://github.com/user-attachments/assets/07236e38-f8a6-4a7d-bc30-0581082fe48a)
+
 
 ### 3. Liskov Substitution Principle (LSP)
 
@@ -38,6 +44,8 @@ The SOLID principles are a set of guidelines that help software developers desig
 
 **Example:** See `ISP.java` for an implementation of ISP.
 
+![{93C1D5B2-8252-40AD-9AF5-BE145C03ADBC}](https://github.com/user-attachments/assets/c86ccd2e-3428-4785-8287-f1daf0c2dd52)
+
 ### 5. Dependency Inversion Principle (DIP)
 
 **Definition:** High-level modules should not depend on low-level modules. Both should depend on abstractions. Additionally, abstractions should not depend on details. Details should depend on abstractions.
@@ -45,6 +53,8 @@ The SOLID principles are a set of guidelines that help software developers desig
 **Description:** DIP encourages the use of dependency injection to decouple high-level and low-level components. By depending on abstractions rather than concrete implementations, we achieve greater flexibility and easier maintainability.
 
 **Example:** See `DIP.java` for an implementation of DIP.
+
+
 
 ## Repository Structure
 
