@@ -1,70 +1,56 @@
-
 # Low-Level Design (LLD) in Java
 
-Welcome to the Low-Level Design (LLD) repository! This repository is a comprehensive collection of Java-based projects that demonstrate key LLD principles and design patterns through practical examples. Each concept is accompanied by a flow diagram to help visualize the design process and structure.
+Welcome to the **Low-Level Design (LLD)** repository! 🎯  
+This repository is a hands-on collection of Java-based implementations where I’ve broken down core LLD concepts and design patterns, supported with **real-world examples** and **visual diagrams** for better understanding.
 
-## Table of Contents
+## 🚀 Introduction
 
-- [Introduction](#introduction)
-- [Concepts Covered](#concepts-covered)
-- [Design Patterns Implemented](#design-patterns-implemented)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+The goal of this repository is to help developers (including my future self) understand and apply key **Low-Level Design principles** effectively in software development. Each package focuses on a specific concept or design pattern, explained through practical code examples and structured flow diagrams.
 
-## Introduction
+If you're looking to level up your system design skills by diving deep into how objects and components interact in scalable software — this repo is for you.
 
-This repository aims to provide a hands-on approach to understanding and applying Low-Level Design principles in software development. By working through these examples, you'll gain a deeper understanding of how to design scalable, maintainable, and efficient software systems.
+![{D4094114-F030-4B0C-99DF-2930BC6EE687}](https://github.com/user-attachments/assets/c716f487-e20d-4226-97de-26a35497aed3)
 
-## Concepts Covered
 
-The repository covers a wide range of LLD concepts, including but not limited to:
+## 🧠 Concepts Covered
 
-- **SOLID Principles**: A set of five design principles intended to make software designs more understandable, flexible, and maintainable.
-- **Design Patterns**: Reusable solutions to common problems in software design. These patterns help improve code readability and flexibility.
+This repo touches on a variety of LLD topics, including but not limited to:
 
-## Design Patterns Implemented
+- ✅ **SOLID Principles**: Improve software maintainability and extensibility.
+- ✅ **Design Patterns**: Solve recurring software design problems in a proven way.
 
-### 1. SOLID Principles
-- **Single Responsibility Principle**
-- **Open/Closed Principle**
-- **Liskov Substitution Principle**
-- **Interface Segregation Principle**
-- **Dependency Inversion Principle**
 
-### 2. Abstract Factory Design Pattern
-- **Example**: Creating related objects, such as different types of cars, without specifying their concrete classes.
 
-### 3. Decorator Design Pattern
-- **Example**: A base pizza class with dynamic addition of toppings, allowing for flexible and extendable code.
+## 🏗️ Design Patterns & Principles Implemented
 
-### 4. Factory Design Pattern
-- **Example**: Luxury Car and Average Car factory, demonstrating how to create objects without exposing the instantiation logic to the client.
+### 🔹 SOLID Principles
+Each principle is demonstrated with examples to show how it helps in writing clean and modular code:
 
-### 5. Observer Design Pattern
-- **Example**: Weather notification system where observers (users) are notified of updates, ensuring decoupled communication between objects.
+- **Single Responsibility Principle (SRP)**
+- **Open/Closed Principle (OCP)**
+- **Liskov Substitution Principle (LSP)**
+- **Interface Segregation Principle (ISP)**
+- **Dependency Inversion Principle (DIP)**
 
-### 6. Strategy Design Pattern
-- **Example**: Tic-Tac-Toe game strategy, showcasing how to define a family of algorithms, encapsulate each one, and make them interchangeable.
+### 🔹 Abstract Factory Design Pattern
+- **Example**: Creating families of related objects (e.g., different car models) without specifying their concrete classes.
 
-## Project Structure
+### 🔹 Decorator Design Pattern
+- **Example**: Adding toppings to a base pizza dynamically — promoting code flexibility and reuse.
 
-The repository is organized into folders, each representing a specific LLD concept or design pattern:
+### 🔹 Factory Design Pattern
+- **Example**: Car factory that returns either a Luxury or Average car, abstracting object creation logic from the client.
 
-```plaintext
-LLD-java/
-│
-├── AbstractFactoryPattern/
-│
-├── DecoratorDesignPattern/
-│
-├── FactoryPatternDesign/
-│
-├── ObserverDesignPattern/
-│
-├── SOLID/
-│
-├── StrategyDesignPattern/
-│
-└── TicTacToe/
+### 🔹 Observer Design Pattern
+- **Example**: Weather update notification system where multiple observers subscribe and get updates — demonstrating loose coupling.
+
+### 🔹 Strategy Design Pattern
+- **Example**: A Tic-Tac-Toe game that uses interchangeable algorithms for deciding moves.
+
+
+
+## 📌 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/low-level-design-java.git
